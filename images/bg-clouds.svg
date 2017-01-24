@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="278px" viewBox="0 0 1440 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(0.000000, -460.000000)">
+            <g id="Oval-108-+-Hi-i'm-Dizparada--+-Group-4-+-Group-4-Mask">
+                <g id="Group-11" transform="translate(-21.000000, 462.000000)">
+                    <g id="Group-4" filter="url(#filter-1)" transform="translate(10.000000, 0.000000)" fill="#8E6CAE">
+                        <circle id="Oval-134" cx="440" cy="271" r="139"></circle>
+                        <circle id="Oval-134" cx="203.5" cy="243.5" r="203.5"></circle>
+                        <circle id="Oval-134" cx="642" cy="312" r="138"></circle>
+                        <circle id="Oval-134" cx="857.5" cy="281.5" r="148.5"></circle>
+                        <circle id="Oval-134" cx="1125.5" cy="246.5" r="182.5"></circle>
+                        <circle id="Oval-134" cx="1373" cy="204" r="204"></circle>
+                    </g>
+                    <g id="Group-4" transform="translate(0.000000, 51.000000)" fill="#F6F6F6">
+                        <circle id="Oval-134" cx="453" cy="271" r="139"></circle>
+                        <circle id="Oval-134" cx="203.5" cy="243.5" r="203.5"></circle>
+                        <circle id="Oval-134" cx="655" cy="312" r="138"></circle>
+                        <circle id="Oval-134" cx="870.5" cy="281.5" r="148.5"></circle>
+                        <circle id="Oval-134" cx="1138.5" cy="246.5" r="182.5"></circle>
+                        <circle id="Oval-134" cx="1409" cy="204" r="204"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M160,320 C248.36556,320 320,248.36556 320,160 C320,71.63444 248.36556,0 160,0 C71.63444,0 0,71.63444 0,160 C0,248.36556 71.63444,320 160,320 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="55.1517602%" y1="-5.11591085%" x2="55.1517606%" y2="163.460651%" id="linearGradient-4">
+            <stop stop-color="#810145" offset="0%"></stop>
+            <stop stop-color="#785CAE" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-5" points="0 315.127426 221.904781 315.127426 221.904781 63.1430655 221.904781 0.239689451 0 0.239689451"></polygon>
+        <path d="M100.966596,166.504984 C119.394066,162.518781 133.182123,146.380026 133.182123,127.077256 C133.182123,104.780446 114.785028,86.7053104 92.0910613,86.7053104 C69.3970948,86.7053104 51,104.780446 51,127.077256 C51,145.80196 63.9745924,161.549319 81.5726962,166.1144 C-4.88301556,169.055729 2.13701947,241.218156 2.13701947,241.218156 C2.13701947,241.218156 127.350049,236.639059 155,230.70531 C182.649951,224.771562 201.8725,207.100836 204,199.70531 C210.732727,176.301284 180.554296,117.176816 180.554296,117.176816 C180.554296,117.176816 176.70685,109.983813 173,109.983813 C170,109.983813 165,114.70531 164,115.70531 C162,117.70531 159,104.70531 154,107.70531 C149,110.70531 165,128.70531 165,128.70531 C165,128.70531 199.948427,171.198644 100.966596,166.504984 Z" id="path-7"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.584848002   0 0 0 0 0.584848002   0 0 0 0 0.584848002  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-24">
+            <g id="Group-20">
+                <g id="Page-1">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#F1F1F1" xlink:href="#path-1"></use>
+                    <polygon id="Path-4" stroke="#D0D0D0" stroke-width="0.5" mask="url(#mask-2)" points="33 221 9 190 113 11 292 221 131 248 22 131 235 31 170 296"></polygon>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(51.000000, 59.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(111.000000, 9.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <polygon id="Path-7" stroke="#D0D0D0" stroke-width="0.5" mask="url(#mask-2)" points="54 61 78 280 293 161 276 76 160 41"></polygon>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(158.000000, 39.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(274.000000, 74.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(21.000000, 129.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(7.000000, 188.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(31.000000, 219.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(291.000000, 219.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(291.000000, 159.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#ACB7C0">
+                        <g transform="translate(231.000000, 29.000000)" id="Oval-86">
+                            <circle cx="2" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                    <g filter="url(#filter-3)" mask="url(#mask-2)">
+                        <g transform="translate(52.000000, 90.000000)">
+                            <polygon id="Fill-1" fill="#FFFFFF" fill-rule="evenodd" points="1.60481928 312.817052 221.604819 312.817052 221.604819 1.14265249 1.60481928 1.14265249"></polygon>
+                            <polygon id="Fill-4" fill="url(#linearGradient-4)" fill-rule="evenodd" points="1.5 16.2719791 221.5 16.2719791 221.5 1.14265249 1.5 1.14265249"></polygon>
+                            <polygon id="Fill-8" fill="none" points="1.60481928 164.048597 219.860241 164.048597 219.860241 83.7986424 1.60481928 83.7986424"></polygon>
+                            <g id="Group-31" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 0.294690)">
+                                <path d="M102.416999,159.282522 C102.416999,160.274451 101.640266,161.080193 100.683794,161.080193 C99.7241118,161.080193 98.9473793,160.274451 98.9473793,159.282522 C98.9473793,158.290593 99.7241118,157.481641 100.683794,157.481641 C101.640266,157.481641 102.416999,158.290593 102.416999,159.282522 L102.416999,159.282522 Z" id="Fill-10" fill="#FFFFFF"></path>
+                                <path d="M107.516472,159.282522 C107.516472,160.274451 106.742949,161.080193 105.783267,161.080193 C104.826795,161.080193 104.053272,160.274451 104.053272,159.282522 C104.053272,158.290593 104.826795,157.481641 105.783267,157.481641 C106.742949,157.481641 107.516472,158.290593 107.516472,159.282522" id="Fill-12" fill="#FFFFFF"></path>
+                                <path d="M117.716062,159.282522 C117.716062,160.274451 116.942539,161.080193 115.982857,161.080193 C115.029594,161.080193 114.256071,160.274451 114.256071,159.282522 C114.256071,158.290593 115.029594,157.481641 115.982857,157.481641 C116.942539,157.481641 117.716062,158.290593 117.716062,159.282522" id="Fill-14" fill="#FFFFFF"></path>
+                                <path d="M112.424973,159.282522 C112.424973,160.274451 111.64824,161.080193 110.691768,161.080193 C109.735295,161.080193 108.961773,160.274451 108.961773,159.282522 C108.961773,158.290593 109.735295,157.481641 110.691768,157.481641 C111.64824,157.481641 112.424973,158.290593 112.424973,159.282522" id="Fill-16" fill="#FFFFFF"></path>
+                                <path d="M122.815535,159.282522 C122.815535,160.274451 122.042013,161.080193 121.08554,161.080193 C120.129068,161.080193 119.355545,160.274451 119.355545,159.282522 C119.355545,158.290593 120.129068,157.481641 121.08554,157.481641 C122.042013,157.481641 122.815535,158.290593 122.815535,159.282522" id="Fill-18" fill="#FFFFFF"></path>
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="Clip-25"></g>
+                                <polygon id="Fill-28" fill="#D0D0D0" mask="url(#mask-6)" points="150 108.691295 201.354217 108.691295 201.354217 70.1697755 150 70.1697755"></polygon>
+                                <polygon id="Fill-29" fill="#D0D0D0" mask="url(#mask-6)" points="22.8626506 108.691295 74.2168675 108.691295 74.2168675 70.1697755 22.8626506 70.1697755"></polygon>
+                                <polygon id="Fill-29" fill="#D0D0D0" mask="url(#mask-6)" points="22.8626506 198.689772 114.212649 198.689772 114.212649 120.169776 22.8626506 120.169776"></polygon>
+                                <polygon id="Fill-30" fill="#D0D0D0" mask="url(#mask-6)" points="85 108.691295 139.563855 108.691295 139.563855 70.1697755 85 70.1697755"></polygon>
+                                <g id="Fill-24" mask="url(#mask-6)">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                    <use fill="#464646" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-25" transform="translate(97.000000, 117.000000)" fill="#464646">
+                <g id="Group-23">
+                    <rect id="Rectangle-6" x="0" y="0" width="134" height="10"></rect>
+                </g>
+                <g id="Group-23" transform="translate(35.000000, 15.000000)">
+                    <rect id="Rectangle-6" x="0" y="0" width="64" height="10"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
