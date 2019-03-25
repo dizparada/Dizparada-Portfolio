@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="278" viewBox="0 0 1440 278">
+  <defs>
+    <filter id="clouds2-a" width="100.9%" height="103.1%" x="-.4%" y="-1.1%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-21 2)">
+    <g fill="#8E66B1" filter="url(#clouds2-a)" transform="translate(10)">
+      <circle cx="440" cy="271" r="139"/>
+      <circle cx="203.5" cy="243.5" r="203.5"/>
+      <circle cx="642" cy="312" r="138"/>
+      <circle cx="857.5" cy="281.5" r="148.5"/>
+      <circle cx="1125.5" cy="246.5" r="182.5"/>
+      <circle cx="1373" cy="204" r="204"/>
+    </g>
+    <g fill="#F3F3F3" transform="translate(0 31)">
+      <circle cx="453" cy="271" r="139"/>
+      <circle cx="203.5" cy="243.5" r="203.5"/>
+      <circle cx="655" cy="312" r="138"/>
+      <circle cx="870.5" cy="281.5" r="148.5"/>
+      <circle cx="1138.5" cy="246.5" r="182.5"/>
+      <circle cx="1409" cy="204" r="204"/>
+    </g>
+  </g>
+</svg>

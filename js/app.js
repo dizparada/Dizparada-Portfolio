@@ -1,13 +1,26 @@
-$(document).foundation();
-document.addEventListener('DOMContentLoaded', function () {
-	particleground(document.getElementById('particles'), {
-		dotColor: '#ffffff',
-		lineColor: 'transparent'
-	});
-	var intro = document.getElementById('intro');
-	intro.style.marginTop = -intro.offsetHeight / 4 + 'px';
-}, false);
+
 $(document).ready(function () {
+	new Particles(document.getElementById("particles"), {
+
+		// size of the particles
+		size: { 
+			min: 0,
+			max: 2
+		},
+	
+		// density of particles on the canvas
+		density: 2000,  
+	
+		// speed of the particules
+		speed: 1, 
+	
+		// number of times per second the canvas is refreshed
+		fps: 60, 
+	
+		// color of the particles
+		color: "#C38BC0" 
+		
+	});
 	// Add smooth scrolling to all links
   $('.scroll').on('click', function(event) {
 
@@ -29,19 +42,29 @@ $(document).ready(function () {
         window.location.hash = hash;
       });
     } // End if
-  });
-	$.getJSON('https://api.dribbble.com/v1/users/dizparada/shots?per_page=100&access_token=0490d74b329b794531c155af97b6c3f2250aa7dd24926d7abf7f727e65373e3d&callback=?', function (resp) {
-		if (resp.data.length > 0) {
-			$.each(resp.data.reverse(), function (i, val) {
-				if(val.tags.includes("portfolio"))
-				$('.cards').prepend(
-					'<li class="cards__item"><a href="' + val.html_url + '"> <div class="card"><div class="card__image"><img src="' + val.images.hidpi + '" /></div> <div class="card__content"><div class="card__title"><h4>' + val.title + '</h4></div><p class="card__text">' + (val.description || "") + '</p></div></div></div></div></a></li>'
-				);
-			});
-		} else {
-			$('.cards').append('<li>No shots.</li>');
-		}
 	});
+	// Set the Access Token
+// The accessToken was obtained by calling the https://dribbble.com/oauth/token endpoint
+var accessToken = '9dc972d649b9c5a33bc96cefb19414a5020d713de13146887aacf401816f04fd';
+// Call Dribble v2 API
+$.ajax({
+	url: 'https://api.dribbble.com/v2/user/shots?per_page=100&access_token='+accessToken,
+	type: 'GET',
+	success: function(data) {  
+		if (data.length > 0) { 
+			$.each(data, function(i, val) {
+		if(val.tags.includes("portfolio")){
+				$('.cards').append(
+					'<div class="cards__item"><a href="' + val.html_url + '"> <div class="card"><div class="card__image"><img src="' + val.images.hidpi + '" /></div> <div class="card__content"><div class="card__title"><h4>' + val.title + (val.description || "") + '</h4></div></div></div></div></div></a></div>'
+				);
+			}
+			})
+		}
+		else {
+			$('.cards').append('<div>Sorry, I haven´t worked much these days :(</div>');
+		}
+	}
+});
 	if ($('.cd-stretchy-nav').length > 0) {
 		var stretchyNavs = $('.cd-stretchy-nav');
 
