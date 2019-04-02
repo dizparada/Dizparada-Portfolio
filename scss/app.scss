@@ -445,7 +445,7 @@ ul.social li img {
     #intro {
         position: absolute;
         left: 5%;
-        top: 24%;
+        top: 15%;
         //padding: 0 20px;
         width: 90%;
         text-align: center;
@@ -480,6 +480,17 @@ ul.social li img {
         bottom: -2%;
         height: 190px;
 
+    }
+}
+
+@media screen and (max-width: 478px) {
+    #intro {
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        //padding: 0 20px;
+        width: 90%;
+        text-align: center;
     }
 }
 
@@ -687,7 +698,7 @@ Modules - reusable parts of our design
 
             p.desc {
                 font-size: 0.9em;
-                font-weight: 300;
+                font-weight: 400;
             }
         }
     }
@@ -700,7 +711,7 @@ Modules - reusable parts of our design
 
             p.desc {
                 font-size: 0.9em;
-                font-weight: 300;
+                font-weight: 400;
             }
         }
     }
@@ -713,7 +724,7 @@ Modules - reusable parts of our design
 
             p.desc {
                 font-size: 0.9em;
-                font-weight: 300;
+                font-weight: 400;
             }
         }
     }
@@ -986,10 +997,25 @@ Main components
     font-weight: bold;
 }
 
-.cd-timeline-content p {
-    margin: 1em 0;
-    line-height: 1.6;
-    font-weight: 300;
+.cd-timeline-content {
+
+    p {
+        margin: 1em 0;
+        line-height: 1.6;
+        font-weight: 400;
+       
+    }
+    ul {
+
+
+        li {
+            font-size:13px;
+            font-weight: 400;
+            a{
+                font-size:13px;
+            }
+        }
+    }
 }
 
 .cd-timeline-content .cd-date {
@@ -1018,7 +1044,7 @@ Main components
     .cd-timeline-content p {
         font-size: 16px;
         font-size: 0.9em;
-        font-weight: 300;
+        font-weight: 400;
     }
 
     .cd-timeline-content .cd-read-more,

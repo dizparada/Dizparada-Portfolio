@@ -3611,7 +3611,7 @@ ul.social li img {
   #intro {
     position: absolute;
     left: 5%;
-    top: 24%;
+    top: 15%;
     width: 90%;
     text-align: center; }
   #intro h1 {
@@ -3636,6 +3636,14 @@ ul.social li img {
     z-index: 1;
     bottom: -2%;
     height: 190px; } }
+
+@media screen and (max-width: 478px) {
+  #intro {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 90%;
+    text-align: center; } }
 
 footer {
   min-height: 10em;
@@ -3785,17 +3793,17 @@ Modules - reusable parts of our design
     width: 75%; }
   .ui p.desc {
     font-size: 0.9em;
-    font-weight: 300; }
+    font-weight: 400; }
   .ux img {
     width: 75%; }
   .ux p.desc {
     font-size: 0.9em;
-    font-weight: 300; }
+    font-weight: 400; }
   .dev img {
     width: 75%; }
   .dev p.desc {
     font-size: 0.9em;
-    font-weight: 300; } }
+    font-weight: 400; } }
 
 .row {
   max-width: none; }
@@ -3965,7 +3973,13 @@ Main components
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
-  font-weight: 300; }
+  font-weight: 400; }
+
+.cd-timeline-content ul li {
+  font-size: 13px;
+  font-weight: 400; }
+  .cd-timeline-content ul li a {
+    font-size: 13px; }
 
 .cd-timeline-content .cd-date {
   float: right;
@@ -3989,7 +4003,7 @@ Main components
   .cd-timeline-content p {
     font-size: 16px;
     font-size: 0.9em;
-    font-weight: 300; }
+    font-weight: 400; }
   .cd-timeline-content .cd-read-more,
   .cd-timeline-content .cd-date {
     font-size: 14px;
